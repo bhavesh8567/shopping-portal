@@ -31,10 +31,9 @@ pipeline{
     
     post{
         always{
-            echo 'Shhoping Portal pipeline completed...'
+            echo 'Shhoping Portal pipeline finished..'
         }
         
-    }
-    
+    }    
 }
 
