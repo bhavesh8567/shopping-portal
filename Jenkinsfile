@@ -9,19 +9,19 @@ pipeline{
     
 
     stages{
-        stage('one'){
+        stage('Build'){
             steps{
                 echo 'this is the Build job'
                 sh 'npm install'
             }
         }
-        stage('two'){
+        stage('Test'){
             steps{
                 echo 'this is the test job'
                 sh 'npm step'
             }
         }
-        stage('three'){
+        stage('Package'){
             steps{
                 echo 'this is the package job'
                 sh 'npm run package'
